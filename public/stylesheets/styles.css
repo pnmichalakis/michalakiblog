@@ -1,0 +1,85 @@
+body {
+/*	background-color: dimgray;*/
+	background-image: url("http://i.imgur.com/Rc6SvkS.jpg");
+	color: black;
+	text-align: center;
+	font-family: Futura;
+	font-size: 16px;
+}
+/**/
+form {
+  display: inline-block;
+}
+
+
+input[type="submit"] {
+  border: none;
+  background-color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Futura;
+  margin-bottom: 30px;
+  color: #FF6600;
+
+}
+
+a {
+  color: #FF6600;
+  text-decoration: none;
+  font-size: 20px
+
+}
+
+
+/**/
+
+
+.post {
+	/*background-color: #FFF5EE;*/
+	background-color: #FDFDFD;
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 60px;
+	border-radius: 25px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+}
+h1{
+	font-family: cursive;
+	font-size: 60px;
+}
+h2 {
+	color: #FF6600;
+}
+.homelink {
+	text-decoration: none;
+	color: #FF6600;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+.postbody {
+	/*height: 200px;*/
+	width: 600px;
+	padding: 10px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+  text-align: center;
+  word-wrap: break-word;
+  border-radius: 25px;
+}
+form {
+	display: block;
+}
+.posttitle{
+	text-align: center;
+	border-radius: 25px;
+	width: 200px;
+}
+/*505050
+#faebd7
+#DC3D24
+#232B2B
+#FFFFFF
+#E3AE57*/

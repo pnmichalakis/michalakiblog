@@ -1,0 +1,15 @@
+<form action="/posts/<%=@post.id%>" method="post">
+	<input type="hidden" name="_method" value="patch">
+	<input type="text" class="posttitle" name="post_title" value="<%=@post.title%>">
+	<p></p>
+	<textarea class="postbody" name="post_body" cols="30" rows="10"><%=@post.body%></textarea>
+	<p></p>
+	<input type="submit">
+
+</form>
+
+<!-- <textarea class="postbody" name="post_body" cols="30" rows="10"><%=@post.body%></textarea>
+
+
+
+	<input class="postbody" type="text" name="post_body" value="<%=@post.body%>"> -->
