@@ -1,16 +1,16 @@
+<div class="navbar">
 <% if session[:current_user] %>
     <form action="/sessions" method='post'>
       <input type="hidden" name='_method' value='delete'>
       <input type="submit" value='Log-Out'>
+      <a href="/posts/new">Add entry!</a>
     </form>
    
-   <a href="/posts/new">Add entry!</a>
   <% else %>
     <a href="/users/new">Join?</a>
-    <p></p>
     <a href="/sessions/new">Log-In?</a>
   <% end %>
-
+</div>
 
 
 <% @posts.each do |post|%>
@@ -18,6 +18,7 @@
 		<a href="/posts/<%=post.id%>"><%=post.title%></a>
 		<p></p>
 		<%=post.body%>
+    <h3>Tags:<%= post.tags.join(" - ") %></h3>
 		</div>
     
 	<%end%>

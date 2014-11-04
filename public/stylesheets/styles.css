@@ -77,6 +77,15 @@ form {
 	border-radius: 25px;
 	width: 200px;
 }
+.navbar {
+	display: inline-block;
+	background-color: black;
+	height: 30px;
+	width: 1500px;
+	border: 2px solid grey;
+	color: grey;
+	margin-bottom: 30px;
+}
 /*505050
 #faebd7
 #DC3D24

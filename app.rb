@@ -14,7 +14,7 @@ get '/' do
   #   erb :not_authenticated
   # end
 
-  @posts = Post.all
+  @posts = Post.order(created_at: :desc).limit(100)
   erb :index
 end
 
