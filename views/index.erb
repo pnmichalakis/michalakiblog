@@ -1,4 +1,4 @@
-<div class="navbar">
+<nav>
 <% if session[:current_user] %>
     <form action="/sessions" method='post'>
       <input type="hidden" name='_method' value='delete'>
@@ -10,7 +10,7 @@
     <a href="/users/new">Join?</a>
     <a href="/sessions/new">Log-In?</a>
   <% end %>
-</div>
+</nav>
 
 
 <% @posts.each do |post|%>

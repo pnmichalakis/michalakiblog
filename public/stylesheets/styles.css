@@ -1,9 +1,10 @@
 body {
-/*	background-color: dimgray;*/
-	background-image: url("http://i.imgur.com/Rc6SvkS.jpg");
+	background-color: lightgray;
+/*	background-image: url("http://i.imgur.com/Rc6SvkS.jpg");*/
 	color: black;
 	text-align: center;
-	font-family: Futura;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
 	font-size: 16px;
 }
 /**/
@@ -18,14 +19,15 @@ input[type="submit"] {
   text-decoration: none;
   cursor: pointer;
   font-size: 20px;
-  font-family: Futura;
+ 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
   margin-bottom: 30px;
-  color: #FF6600;
+  color: #2440F2;
 
 }
 
 a {
-  color: #FF6600;
+  color: #2440F2; 
   text-decoration: none;
   font-size: 20px
 
@@ -42,21 +44,21 @@ a {
 	text-align: center;
 	margin: 0 auto;
 	padding: 60px;
-	border-radius: 25px;
+	border-radius: 10px;
 	margin-bottom: 30px;
-	border: 1px solid black;
+	box-shadow: 10px 10px 5px #888888;
 }
 h1{
 	font-family: cursive;
 	font-size: 60px;
 }
 h2 {
-	color: #FF6600;
+	color: #2440F2;
 }
 .homelink {
 	text-decoration: none;
-	color: #FF6600;
-	text-shadow: 2px 2px 8px #FF0000;
+	color: #2440F2;
+	text-shadow: 2px 2px 8px #2440F2;
 }
 .postbody {
 	/*height: 200px;*/
@@ -68,6 +70,7 @@ h2 {
   text-align: center;
   word-wrap: break-word;
   border-radius: 25px;
+  
 }
 form {
 	display: block;
@@ -77,14 +80,12 @@ form {
 	border-radius: 25px;
 	width: 200px;
 }
-.navbar {
-	display: inline-block;
-	background-color: black;
+nav {
+	background-color: #FDFDFD;
+	border:  1px solid black;
+	margin-bottom: 20px;
 	height: 30px;
-	width: 1500px;
-	border: 2px solid grey;
-	color: grey;
-	margin-bottom: 30px;
+	box-shadow: 10px 10px 5px #888888;
 }
 /*505050
 #faebd7
